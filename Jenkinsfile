@@ -1,3 +1,4 @@
-@Library ('roboshop')
+@Library('roboshop')
 
-nodejs()
+env.cibuild = "nodejs"
+mainci()
